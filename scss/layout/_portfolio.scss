@@ -15,7 +15,7 @@
       left: 0;
       transition: $transition-base;
       opacity: 0;
-      background-color: fade-out($dark-blue, .1);
+      background-color: fade-out($dark-blue, 0.1);
       &:hover {
         opacity: 1;
       }
@@ -45,5 +45,12 @@
     line-height: 3rem;
     color: $primary;
     opacity: 1;
+  }
+}
+
+.portfolio-modal {
+  .list-group {
+    width: 70%;
+    margin-bottom: 25px;
   }
 }
