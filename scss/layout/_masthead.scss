@@ -24,11 +24,14 @@
     .masthead-subheading {
       font-size: 1.5rem;
     }
-
   }
 }
 
 /* Custom SCSS */
 .bg-silver {
   background-color: $silver;
+}
+
+.bronze-text {
+  color: $bronze;
 }

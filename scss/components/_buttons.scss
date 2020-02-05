@@ -32,5 +32,14 @@
 // Custom classes
 .btn-dark-blue {
   background-color: $dark-blue;
-  color: white;
+  color: $white;
+}
+
+.btn-circle {
+  border-radius: 100%;
+}
+
+.btn-portfolio {
+  background-color: $silver;
+  color: $white;
 }
