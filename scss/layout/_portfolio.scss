@@ -46,11 +46,13 @@
     color: $primary;
     opacity: 1;
   }
-}
 
-.portfolio-modal {
   .list-group {
     width: 70%;
     margin-bottom: 25px;
   }
+}
+
+.portfolio-item {
+  text-align: center;
 }
