@@ -9641,6 +9641,15 @@ a.text-dark:hover, a.text-dark:focus {
 
 .btn-circle {
   border-radius: 100%;
+  width: 3.25rem;
+  height: 3.25rem;
+  font-size: 1.25rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-circle i {
+  vertical-align: middle;
 }
 
 .btn-portfolio {
